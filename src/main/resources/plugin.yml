@@ -1,0 +1,12 @@
+name: HomesPlugin
+version: '${project.version}'
+main: me.orlogg.homesplugin.HomesPlugin
+api-version: 1.19
+authors: [ 0rlogg ]
+description: Plugin to save and display the coordinates chosen by the user.
+website: https://github.com/0rlogg
+commands:
+  sethome:
+    description: a
+  home:
+    description: a
