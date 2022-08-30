@@ -16,7 +16,9 @@ public class HomesPlugin extends JavaPlugin {
         new Home(this);
         Objects.requireNonNull(getCommand("SetHome")).setExecutor(new SetHomeCommand(this));
         Objects.requireNonNull(getCommand("Home")).setExecutor(new Home(this));
-
+        //TODO Add a getcommand for delete homes
+        //TODO Add a getcommand for see a list of locations created by the player
+        //TODO ASAP Apply hashmap instead of using configuration files for the treatment of the data
     }
 
     private void loadConfig(){
