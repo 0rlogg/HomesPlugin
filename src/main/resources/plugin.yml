@@ -6,7 +6,7 @@ authors: [ 0rlogg ]
 description: Plugin to save and display the coordinates chosen by the user.
 website: https://github.com/0rlogg
 commands:
-  sethome:
+  SetHome:
     description: a
-  home:
+  Home:
     description: a
